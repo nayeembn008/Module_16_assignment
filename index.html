@@ -45,23 +45,86 @@
       };
     </script>
   </head>
-  <!-- <button
-  class="text-neutral-900 font-extrabold bg-rinterio-primary-tint-1 py-3 px-4 rounded-full border-rinterio-primary-base border flex justify-center items-center"
->
-  View Details
-  <span
-    class="bg-rinterio-primary-base w-8 h-8 rounded-full flex justify-center items-center ml-2"
-    ><i
-      class="fa-solid fa-arrow-right text-neutral-900 transform -rotate-45"
-    ></i
-  ></span>
-</button> -->
 
   <body class="font-manrope">
     <header
       class="container mx-auto pt-8 md:pt-10 lg:pt-12 pb-10 md:pb-20 lg:pb-24 px-4 lg:px-0"
     >
-      <nav></nav>
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <a class="#"><img src="./assets/Logo-main.svg" alt="" /></a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a href="#" class="text-neutral-600 font-bold">Home</a></li>
+              <li><a href="#" class="text-neutral-500">Services</a></li>
+              <li><a href="#" class="text-neutral-500">Portfolio</a></li>
+              <li><a href="#" class="text-neutral-500">Blogs</a></li>
+              <li><a href="#" class="text-neutral-500">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="hidden lg:block">
+              <div class="flex items-center gap-4">
+                <button
+                  class="btn btn-circle btn-outline border-neutral-200 hover:bg-rinterio-primary-tint-2 hover:border-bg-rinterio-primary-tint-1 hover:outline-bg-rinterio-primary-tint-1"
+                >
+                  <img src="./assets/shopping-cart-01.svg" alt="" />
+                </button>
+                <button
+                  class="btn btn-circle btn-outline border-neutral-200 hover:bg-rinterio-primary-tint-2 hover:border-bg-rinterio-primary-tint-1 hover:outline-bg-rinterio-primary-tint-1"
+                >
+                  <img src="./assets/search-01.svg" alt="" />
+                </button>
+                <button
+                  class="text-neutral-900 font-extrabold bg-rinterio-primary-base py-3 px-4 rounded-full border-rinterio-primary-base border flex justify-center items-center lg:col-span-2"
+                >
+                  Book Consult
+                  <span
+                    class="bg-neutral-900 w-8 h-8 rounded-full flex justify-center items-center ml-2"
+                    ><i
+                      class="fa-solid fa-arrow-right text-white transform -rotate-45"
+                    ></i
+                  ></span>
+                </button>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Item 1</a></li>
+                <li>
+                  <a>Parent</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
       <!-- Hero section -->
       <div
         class="flex flex-col justify-center items-center text-center md:w-3/4 lg:w-11/12 mx-auto"
