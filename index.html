@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinterio</title>
+    <!-- Fontawesome installation-->
+    <script
+      src="https://kit.fontawesome.com/dc45b27889.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google font installation -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind + Daisy UI installation -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure tailwind config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            manrope: ["Manrope"],
+          },
+          extend: {
+            colors: {
+              "rinterio-primary-base": "rgb(171, 239, 95)",
+              "rinterio-primary-tint-1": "rgba(171, 239, 95, 0.50)",
+              "rinterio-primary-tint-2": "rgba(171, 239, 95, 0.20)",
+              "semantic-red": "#E7C1D3",
+              "semantic-yellow": "#EFDA6E",
+              "semantic-green": "#A4DAC3",
+              "semantic-blue": "#77AAEA",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <!-- <button
+  class="text-neutral-900 font-extrabold bg-rinterio-primary-tint-1 py-3 px-4 rounded-full border-rinterio-primary-base border flex justify-center items-center"
+>
+  View Details
+  <span
+    class="bg-rinterio-primary-base w-8 h-8 rounded-full flex justify-center items-center ml-2"
+    ><i
+      class="fa-solid fa-arrow-right text-neutral-900 transform -rotate-45"
+    ></i
+  ></span>
+</button> -->
+
+  <body class="font-manrope px-4 lg:px-0">
+    <header
+      class="container mx-auto pt-8 md:pt-10 lg:pt-12 pb-10 md:pb-20 lg:pb-24"
+    >
+      <nav></nav>
+      <!-- Hero section -->
+      <div
+        class="flex flex-col justify-center items-center text-center md:w-3/4 lg:w-11/12 mx-auto"
+      >
+        <img src="./assets/banner.png" alt="" class="w-full lg:w-1/2" />
+        <h1
+          class="text-neutral-900 font-extrabold text-3xl md:text-4xl lg:text-6xl mb-5 lg:mb-6"
+        >
+          A barn house of this design has a striking appearance
+        </h1>
+        <p class="text-neutral-600 mb-4 lg:mb-8 md:w-11/12 leading-6">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+        <button
+          class="text-neutral-900 font-extrabold bg-rinterio-primary-tint-1 py-3 px-4 rounded-full border-rinterio-primary-base border flex justify-center items-center"
+        >
+          View Details
+          <span
+            class="bg-rinterio-primary-base w-8 h-8 rounded-full flex justify-center items-center ml-2"
+            ><i
+              class="fa-solid fa-arrow-right text-neutral-900 transform -rotate-45"
+            ></i
+          ></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <!-- About us -->
+      <section></section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
