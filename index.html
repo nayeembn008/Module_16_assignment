@@ -66,7 +66,11 @@
       <div
         class="flex flex-col justify-center items-center text-center md:w-3/4 lg:w-11/12 mx-auto"
       >
-        <img src="./assets/banner.png" alt="" class="w-full lg:w-1/2" />
+        <img
+          src="./assets/banner.png"
+          alt=""
+          class="w-full lg:w-1/2 mb-4 lg:mb-6"
+        />
         <h1
           class="text-neutral-900 font-extrabold text-3xl md:text-4xl lg:text-6xl mb-5 lg:mb-6"
         >
@@ -92,10 +96,8 @@
     </header>
     <main class="bg-neutral-50">
       <!-- About us -->
-      <section class="container mx-auto px-4 lg:px-0">
-        <div
-          class="py-8 md:py-16 lg:py-24 flex flex-col gap-10 lg:flex-row relative"
-        >
+      <section class="container mx-auto px-4 lg:px-0 mb-8 md:mb-16 lg:mb-24">
+        <div class="py-8 md:py-16 lg:py-24 flex flex-col lg:flex-row relative">
           <div>
             <img
               src="./assets/Arrow.png"
@@ -103,7 +105,8 @@
               class="hidden lg:block absolute top-8 -left-10"
             />
           </div>
-          <div class="space-y-6 lg:w-2/3 xl:w-1/2">
+
+          <div class="space-y-6 lg:w-2/3 xl:w-1/2 lg:pr-10">
             <div class="space-y-6 text-center lg:text-left">
               <span class="px-4 py-2 rounded-full bg-white font-bold">
                 <i class="fa-solid fa-arrow-right mr-2"></i> About Us
@@ -135,7 +138,7 @@
                   <h4 class="text-xl font-bold leading-7 text-neutral-600">
                     Commercial
                   </h4>
-                  <p class="text-neutral-500 lg:w-2/3">
+                  <p class="text-neutral-500 xl:w-2/3">
                     The barn house captivates with its blend of rustic charm and
                     modern.
                   </p>
@@ -154,7 +157,7 @@
                   <h4 class="text-xl font-bold leading-7 text-neutral-600">
                     Residential
                   </h4>
-                  <p class="text-neutral-500 lg:w-2/3">
+                  <p class="text-neutral-500 xl:w-2/3">
                     The barn house captivates with its blend of rustic charm and
                     modern.
                   </p>
@@ -163,9 +166,115 @@
             </div>
           </div>
           <div
-            class="h-56 md:h-96 lg:h-auto bg-cover bg-center lg:w-2/3 xl:w-1/2 rounded-2xl"
+            class="h-56 md:h-96 lg:h-auto bg-cover bg-center lg:w-2/3 xl:w-1/2 rounded-2xl mt-6 lg:mt-0"
             style="background-image: url(./assets/liveable-space.png)"
           ></div>
+        </div>
+        <!-- Stats container -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-6 bg-white rounded-2xl p-6 lg:p-8"
+        >
+          <!-- Stats 1 -->
+          <div class="flex flex-col items-center p-4 lg:p-6">
+            <img src="./assets/review.svg" alt="" class="mb-3" />
+            <h2
+              class="text-neutral-600 text-2xl md:text-3xl lg:text-5xl font-extrabold mb-1"
+            >
+              235+
+            </h2>
+            <p>Happy Client Review</p>
+          </div>
+          <!-- Stats 2 -->
+          <div class="flex flex-col items-center p-4 lg:p-6">
+            <img src="./assets/review.svg" alt="" class="mb-3" />
+            <h2
+              class="text-neutral-600 text-2xl md:text-3xl lg:text-5xl font-extrabold mb-1"
+            >
+              50+
+            </h2>
+            <p>Work Departments</p>
+          </div>
+          <!-- Stats 3 -->
+          <div class="flex flex-col items-center p-4 lg:p-6">
+            <img src="./assets/happy-client.svg" alt="" class="mb-3" />
+            <h2
+              class="text-neutral-600 text-2xl md:text-3xl lg:text-5xl font-extrabold mb-1"
+            >
+              30k+
+            </h2>
+            <p>Out Happy Client</p>
+          </div>
+          <!-- Stats 4 -->
+          <div class="flex flex-col items-center p-4 lg:p-6">
+            <img src="./assets/staff-member.svg" alt="" class="mb-3" />
+            <h2
+              class="text-neutral-600 text-2xl md:text-3xl lg:text-5xl font-extrabold mb-1"
+            >
+              307
+            </h2>
+            <p>Staff Member</p>
+          </div>
+        </div>
+      </section>
+      <!-- Our work process -->
+      <section class="container mx-auto px-4 lg:px-0">
+        <!-- Process content -->
+        <div
+          class="space-y-6 text-center mx-auto md:w-5/6 lg:w-1/2 mb-6 lg:mb-8"
+        >
+          <span class="px-4 py-2 rounded-full bg-white font-bold">
+            <i class="fa-solid fa-arrow-right mr-2"></i> How we works
+          </span>
+          <h2
+            class="text-neutral-800 text-2xl md:text-3xl lg:text-5xl font-extrabold"
+          >
+            Our Works Process
+          </h2>
+          <p class="text-neutral-600 font-medium">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <!-- Process card container -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6"
+        >
+          <!-- Process card 1-->
+          <div class="space-y-3 p-6 bg-semantic-red rounded-2xl">
+            <img src="./assets/concept.png" alt="" />
+            <h4 class="text-xl font-bold text-neutral-900">Concept</h4>
+            <p>
+              The barn house captivates with its blend of rustic charm and
+              modern.
+            </p>
+          </div>
+          <!-- Process card 2-->
+          <div class="space-y-3 p-6 bg-semantic-yellow rounded-2xl">
+            <img src="./assets/flow-chart.png" alt="" />
+            <h4 class="text-xl font-bold text-neutral-900">Design Process</h4>
+            <p>
+              The barn house captivates with its blend of rustic charm and
+              modern.
+            </p>
+          </div>
+          <!-- Process card 3-->
+          <div class="space-y-3 p-6 bg-semantic-green rounded-2xl">
+            <img src="./assets/vision.png" alt="" />
+            <h4 class="text-xl font-bold text-neutral-900">Supervision</h4>
+            <p>
+              The barn house captivates with its blend of rustic charm and
+              modern.
+            </p>
+          </div>
+          <!-- Process card 4-->
+          <div class="space-y-3 p-6 bg-semantic-blue rounded-2xl">
+            <img src="./assets/budget-planning.png" alt="" />
+            <h4 class="text-xl font-bold text-neutral-900">Budget Planning</h4>
+            <p>
+              The barn house captivates with its blend of rustic charm and
+              modern.
+            </p>
+          </div>
         </div>
       </section>
     </main>
