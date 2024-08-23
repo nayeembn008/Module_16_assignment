@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinterio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
     <!-- Fontawesome installation-->
     <script
       src="https://kit.fontawesome.com/dc45b27889.js"
@@ -48,7 +49,7 @@
 
   <body class="font-manrope">
     <header
-      class="container mx-auto pt-8 md:pt-10 lg:pt-12 pb-10 md:pb-20 lg:pb-24 px-4 lg:px-0"
+      class="container mx-auto pt-6 md:pt-8 lg:pt-10 pb-10 md:pb-20 lg:pb-24 px-4 lg:px-0"
     >
       <nav>
         <div class="navbar bg-base-100">
@@ -90,7 +91,7 @@
                 </button>
               </div>
             </div>
-            <div class="dropdown">
+            <div class="dropdown dropdown-end">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -111,15 +112,11 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
-                <li><a>Item 1</a></li>
-                <li>
-                  <a>Parent</a>
-                  <ul class="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                  </ul>
-                </li>
-                <li><a>Item 3</a></li>
+                <li><a href="#" class="text-neutral-600 font-bold">Home</a></li>
+                <li><a href="#" class="text-neutral-500">Services</a></li>
+                <li><a href="#" class="text-neutral-500">Portfolio</a></li>
+                <li><a href="#" class="text-neutral-500">Blogs</a></li>
+                <li><a href="#" class="text-neutral-500">Contact Us</a></li>
               </ul>
             </div>
           </div>
@@ -127,22 +124,21 @@
       </nav>
       <!-- Hero section -->
       <div
-        class="flex flex-col justify-center items-center text-center md:w-3/4 lg:w-11/12 mx-auto"
+        class="flex flex-col justify-center items-center text-center md:w-3/4 lg:w-11/12 mx-auto mt-6 lg:mt-16"
       >
         <img
-          src="./assets/banner.png"
+          src="./assets/banner.webp"
           alt=""
           class="w-full lg:w-1/2 mb-4 lg:mb-6"
         />
         <h1
-          class="text-neutral-900 font-extrabold text-3xl md:text-4xl lg:text-6xl mb-5 lg:mb-6"
+          class="text-neutral-900 font-extrabold text-3xl md:text-4xl lg:text-6xl mb-5 lg:mb-6 md:w-2/3 mx-auto"
         >
-          A barn house of this design has a striking appearance
+          Unlock the door to Exceptional Living
         </h1>
         <p class="text-neutral-600 mb-4 lg:mb-8 md:w-11/12 leading-6">
-          The barn house captivates with its blend of rustic charm and modern
-          sophistication, featuring weathered wood, sleek metal accents, and
-          large windows that flood the space with natural light.
+          Explore the vibrant world of real estate, where every corner holds the
+          promise of a new home
         </p>
         <button
           class="text-neutral-900 font-extrabold bg-rinterio-primary-tint-1 py-3 px-4 rounded-full border-rinterio-primary-base border flex justify-center items-center"
@@ -181,9 +177,9 @@
                   We design thoughtful, liveable spaces
                 </h2>
                 <p class="text-neutral-600 font-medium">
-                  The barn house captivates with its blend of rustic charm and
-                  modern sophistication, featuring weathered wood, sleek metal
-                  accents.
+                  Welcome to Renterio, where your journey to finding the perfect
+                  home begins! We understand that a home is more than just four
+                  walls, it’s where memories are made, and dreams take shape.
                 </p>
               </div>
             </div>
@@ -202,8 +198,8 @@
                     Commercial
                   </h4>
                   <p class="text-neutral-500 xl:w-2/3">
-                    The barn house captivates with its blend of rustic charm and
-                    modern.
+                    Connecting businesses with ideal spaces through expert,
+                    value-driven solutions.
                   </p>
                 </div>
               </div>
@@ -221,8 +217,8 @@
                     Residential
                   </h4>
                   <p class="text-neutral-500 xl:w-2/3">
-                    The barn house captivates with its blend of rustic charm and
-                    modern.
+                    Finding your perfect home with personalized service and
+                    expert guidance.
                   </p>
                 </div>
               </div>
@@ -230,7 +226,7 @@
           </div>
           <div
             class="h-56 md:h-96 lg:h-auto bg-cover bg-center lg:w-2/3 xl:w-1/2 rounded-2xl mt-6 lg:mt-0"
-            style="background-image: url(./assets/liveable-space.png)"
+            style="background-image: url(./assets/liveable-space.webp)"
           ></div>
         </div>
         <!-- Stats container -->
@@ -265,7 +261,7 @@
             >
               30k+
             </h2>
-            <p>Out Happy Client</p>
+            <p>Our Happy Client</p>
           </div>
           <!-- Stats 4 -->
           <div class="flex flex-col items-center p-4 lg:p-6">
@@ -273,7 +269,7 @@
             <h2
               class="text-neutral-600 text-2xl md:text-3xl lg:text-5xl font-extrabold mb-1"
             >
-              307
+              307+
             </h2>
             <p>Staff Member</p>
           </div>
@@ -294,8 +290,9 @@
             Our Works Process
           </h2>
           <p class="text-neutral-600 font-medium">
-            The barn house captivates with its blend of rustic charm and modern
-            sophistication, featuring weathered wood, sleek metal accents.
+            Our process covers everything from concept to design, supervision,
+            and budget planning, ensuring your real estate project is executed
+            with precision and care.
           </p>
         </div>
         <!-- Process card container -->
@@ -307,8 +304,8 @@
             <img src="./assets/concept.png" alt="" />
             <h4 class="text-xl font-bold text-neutral-900">Concept</h4>
             <p>
-              The barn house captivates with its blend of rustic charm and
-              modern.
+              We begin by understanding your vision and objectives, tailoring
+              our approach to align with your unique real estate needs.
             </p>
           </div>
           <!-- Process card 2-->
@@ -316,8 +313,8 @@
             <img src="./assets/flow-chart.png" alt="" />
             <h4 class="text-xl font-bold text-neutral-900">Design Process</h4>
             <p>
-              The barn house captivates with its blend of rustic charm and
-              modern.
+              Our team crafts innovative and functional designs, ensuring each
+              space maximizes value and potential.
             </p>
           </div>
           <!-- Process card 3-->
@@ -325,8 +322,8 @@
             <img src="./assets/vision.png" alt="" />
             <h4 class="text-xl font-bold text-neutral-900">Supervision</h4>
             <p>
-              The barn house captivates with its blend of rustic charm and
-              modern.
+              We oversee every detail of the project, managing timelines and
+              quality to ensure seamless execution.
             </p>
           </div>
           <!-- Process card 4-->
@@ -334,8 +331,8 @@
             <img src="./assets/budget-planning.png" alt="" />
             <h4 class="text-xl font-bold text-neutral-900">Budget Planning</h4>
             <p>
-              The barn house captivates with its blend of rustic charm and
-              modern.
+              We provide transparent and strategic budget planning, optimizing
+              resources for the best return on investment.
             </p>
           </div>
         </div>
@@ -359,9 +356,8 @@
               Our Latest Portfolio
             </h2>
             <p class="text-neutral-600 font-medium">
-              The barn house captivates with its blend of rustic charm and
-              modern sophistication, featuring weathered wood, sleek metal
-              accents.
+              Explore our latest portfolio to see our most recent and impressive
+              properties available for you.
             </p>
           </div>
           <!-- Portfolio container -->
@@ -370,19 +366,19 @@
           >
             <!-- Portfolio 1 -->
             <div
-              class="p-6 bg-white rounded-2xl md:col-span-8 flex justify-start items-center lg:col-span-8 border"
+              class="p-6 bg-white rounded-2xl md:col-span-8 flex flex-col md:flex-row justify-start items-center lg:col-span-8 border"
             >
               <div
-                class="bg-cover bg-center h-48 rounded-2xl md:w-64 md:mr-6"
-                style="background-image: url(./assets/portfolio1.png)"
+                class="bg-cover bg-center h-48 w-full rounded-2xl md:w-64 md:mr-6"
+                style="background-image: url(./assets/portfolio1.webp)"
               ></div>
               <div>
                 <h4 class="text-xl font-bold text-neutral-600 mb-2 mt-4">
-                  Commercial
+                  Luxury Suburban Estates
                 </h4>
                 <p class="text-neutral-500 mb-3">
-                  The barn house captivates with its blend of rustic charm and
-                  modern.
+                  Explore our selection of luxury suburban estates, perfect for
+                  those seeking serene and spacious living outside the city.
                 </p>
                 <button
                   class="text-neutral-900 font-extrabold flex justify-center items-center"
@@ -403,7 +399,7 @@
             >
               <div
                 class="bg-cover bg-center h-48 rounded-2xl"
-                style="background-image: url(./assets/portfolio2.png)"
+                style="background-image: url(./assets/portfolio2.webp)"
               ></div>
             </div>
             <!-- Portfolio 3 -->
@@ -412,24 +408,24 @@
             >
               <div
                 class="bg-cover bg-center h-48 rounded-2xl"
-                style="background-image: url(./assets/portfolio3.png)"
+                style="background-image: url(./assets/portfolio3.webp)"
               ></div>
             </div>
             <!-- Portfolio 4 -->
             <div
-              class="p-6 bg-white rounded-2xl md:col-span-8 flex justify-start items-center lg:col-span-6 border"
+              class="p-6 bg-white rounded-2xl md:col-span-8 flex flex-col md:flex-row justify-start items-center lg:col-span-6 border"
             >
               <div
-                class="bg-cover bg-center h-48 rounded-2xl md:w-64 md:mr-6"
-                style="background-image: url(./assets/portfolio4.png)"
+                class="bg-cover bg-center h-48 w-full rounded-2xl md:w-64 md:mr-6"
+                style="background-image: url(./assets/portfolio4.webp)"
               ></div>
               <div>
                 <h4 class="text-xl font-bold text-neutral-600 mb-2 mt-4">
-                  Commercial
+                  Urban Chic Apartments
                 </h4>
                 <p class="text-neutral-500 mb-3">
-                  The barn house captivates with its blend of rustic charm and
-                  modern.
+                  Discover our collection of modern, urban chic apartments
+                  designed for contemporary living.
                 </p>
                 <button
                   class="text-neutral-900 font-extrabold flex justify-center items-center"
@@ -450,7 +446,7 @@
             >
               <div
                 class="bg-cover bg-center h-48 rounded-2xl"
-                style="background-image: url(./assets/portfolio5.png)"
+                style="background-image: url(./assets/portfolio5.webp)"
               ></div>
             </div>
             <!-- Portfolio 6 -->
@@ -459,13 +455,136 @@
             >
               <div
                 class="bg-cover bg-center h-48 rounded-2xl"
-                style="background-image: url(./assets/portfolio5.png)"
+                style="background-image: url(./assets/portfolio5.webp)"
               ></div>
             </div>
           </div>
         </div>
       </section>
-      <!-- Read our article and news -->
+      <!-- Client testimonial -->
+      <section class="container mx-auto px-4 lg:px-0 mb-8 md:mb-16 lg:mb-24">
+        <div class="py-8 md:py-16 lg:py-24 flex flex-col lg:flex-row relative">
+          <div class="space-y-6 lg:w-1/2 lg:pr-32">
+            <div class="space-y-6 text-center lg:text-left lg:sticky top-16">
+              <span class="px-4 py-2 rounded-full bg-white font-bold">
+                <i class="fa-solid fa-arrow-right mr-2"></i> Testimonials
+              </span>
+              <div class="space-y-6 w-full md:w-5/6 lg:w-full mx-auto">
+                <h2
+                  class="text-neutral-800 text-2xl md:text-3xl lg:text-5xl font-extrabold"
+                >
+                  What people are saying about me
+                </h2>
+                <p class="text-neutral-600 font-medium">
+                  Discover what clients are saying about their experience with
+                  us. Our testimonials reflect our commitment to excellence and
+                  the impact we have on making real estate dreams come true.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial container -->
+          <div class="w-5/6 mx-auto lg:w-1/2 mt-24 lg:mt-12">
+            <!-- Testimonial card 1 -->
+            <div class="relative mb-28 lg:mb-40">
+              <img
+                src="./assets/quote.svg"
+                alt=""
+                class="absolute -top-14 -left-4"
+              />
+              <p class="mb-6 text-neutral-600 text-lg">
+                Our experience with this real estate company was exceptional.
+                From the first meeting to closing the deal, they demonstrated a
+                deep understanding of our needs. They found us a commercial
+                property that perfectly aligned with our business goals. The
+                entire process was handled with professionalism, transparency,
+                and care, making what could have been a stressful experience
+                truly enjoyable. We couldn't be happier with the outcome and
+                highly recommend them to anyone looking for a reliable real
+                estate partner.
+              </p>
+              <div class="flex items-center gap-4">
+                <div class="avatar">
+                  <div class="w-20 rounded-full">
+                    <img src="./assets/testimonial1.png" />
+                  </div>
+                </div>
+                <div>
+                  <h5 class="text-neutral-600 font-bold text-lg mb-1">
+                    James Anderson
+                  </h5>
+                  <p class="text-neutral-500">CEO, Tech Solutions Inc.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial card 2 -->
+            <div class="relative mb-28 lg:mb-40">
+              <img
+                src="./assets/quote.svg"
+                alt=""
+                class="absolute -top-14 -left-4"
+              />
+              <p class="mb-6 text-neutral-600 text-lg">
+                Purchasing our first home was a significant milestone, and this
+                real estate company made it a smooth and rewarding journey. They
+                took the time to listen to our preferences and guided us to the
+                perfect neighborhood that suits our lifestyle. Their attention
+                to detail, market knowledge, and commitment to finding us the
+                right property were evident at every step. The team was always
+                available to answer our questions, and their negotiation skills
+                helped us secure our dream home within our budget. We are
+                incredibly grateful for their outstanding service.
+              </p>
+              <div class="flex items-center gap-4">
+                <div class="avatar">
+                  <div class="w-20 rounded-full">
+                    <img src="./assets/testimonial2.png" />
+                  </div>
+                </div>
+                <div>
+                  <h5 class="text-neutral-600 font-bold text-lg mb-1">
+                    Emily Johnson
+                  </h5>
+                  <p class="text-neutral-500">Homeowner</p>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial card 3 -->
+            <div class="relative">
+              <img
+                src="./assets/quote.svg"
+                alt=""
+                class="absolute -top-14 -left-4"
+              />
+              <p class="mb-6 text-neutral-600 text-lg">
+                This real estate company exceeded our expectations in every way.
+                We were looking for an investment property, and they provided us
+                with insightful advice and a carefully curated list of options.
+                Their in-depth market analysis and strategic approach ensured
+                that we made a smart investment. Throughout the process, they
+                maintained open communication, kept us informed, and managed
+                every aspect with precision. The result was a smooth transaction
+                and a property that is already delivering returns. We highly
+                recommend them to anyone seeking expert guidance in real estate.
+              </p>
+              <div class="flex items-center gap-4">
+                <div class="avatar">
+                  <div class="w-20 rounded-full">
+                    <img src="./assets/testimonial3.png" />
+                  </div>
+                </div>
+                <div>
+                  <h5 class="text-neutral-600 font-bold text-lg mb-1">
+                    Michael Thompson
+                  </h5>
+                  <p class="text-neutral-500">Real Estate Investor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section>
         <div
           class="container mx-auto px-4 lg:px-0 pb-8 md:pb-16 lg:pb-24 mt-10 lg:mt-20"
@@ -485,22 +604,21 @@
               Read Our Articles and News
             </h2>
             <p class="text-neutral-600 font-medium">
-              The barn house captivates with its blend of rustic charm and
-              modern sophistication, featuring weathered wood, sleek metal
-              accents.
+              Stay informed with the latest insights and updates in real estate
+              by reading our articles and news.
             </p>
           </div>
           <!-- Articles container -->
           <div class="flex flex-col gap-6 lg:flex-row">
             <!-- Article 1 -->
             <div
-              class="bg-white p-5 lg:p-6 rounded-2xl flex flex-col md:flex-row lg:flex-col"
+              class="bg-white p-5 lg:p-6 rounded-2xl flex flex-col md:flex-row lg:flex-col lg:w-1/3"
             >
               <div
                 class="bg-cover bg-center h-48 md:w-64 lg:h-52 lg:w-auto rounded-2xl mb-4 md:mb-0 lg:mb-4 md:mr-6 lg:mr-0"
-                style="background-image: url(./assets/article1.png)"
+                style="background-image: url(./assets/article1.webp)"
               ></div>
-              <div>
+              <div class="md:w-2/3 lg:w-full">
                 <div class="flex gap-2 mb-2">
                   <span class="flex items-center gap-2 text-sm text-neutral-500"
                     ><img src="./assets/calendar.svg" alt="" class="" />July 14,
@@ -511,11 +629,11 @@
                   >
                 </div>
                 <h4 class="text-xl font-bold text-neutral-600 mb-2">
-                  How to choose the furniture right of your home.
+                  The Key to Finding Your Perfect Home: What to Look For
                 </h4>
                 <p class="text-neutral-500 mb-3">
-                  The barn house captivates with its blend of rustic charm and
-                  modern.
+                  Explore key factors for finding a home that fits your needs
+                  and lifestyle.
                 </p>
                 <button
                   class="text-neutral-900 font-extrabold flex justify-center items-center"
@@ -532,13 +650,13 @@
             </div>
             <!-- Article 2 -->
             <div
-              class="bg-white p-5 lg:p-6 rounded-2xl flex flex-col md:flex-row lg:flex-col"
+              class="bg-white p-5 lg:p-6 rounded-2xl flex flex-col md:flex-row lg:flex-col lg:w-1/3"
             >
               <div
                 class="bg-cover bg-center h-48 md:w-64 lg:h-52 lg:w-auto rounded-2xl mb-4 md:mb-0 lg:mb-4 md:mr-6 lg:mr-0"
-                style="background-image: url(./assets/article2.png)"
+                style="background-image: url(./assets/article2.webp)"
               ></div>
-              <div>
+              <div class="md:w-2/3 lg:w-full">
                 <div class="flex gap-2 mb-2">
                   <span class="flex items-center gap-2 text-sm text-neutral-500"
                     ><img src="./assets/calendar.svg" alt="" class="" />July 14,
@@ -549,11 +667,11 @@
                   >
                 </div>
                 <h4 class="text-xl font-bold text-neutral-600 mb-2">
-                  How to choose the furniture right of your home.
+                  Investing in Real Estate: What You Need to Know Before You Buy
                 </h4>
                 <p class="text-neutral-500 mb-3">
-                  The barn house captivates with its blend of rustic charm and
-                  modern.
+                  Discover key strategies for a successful real estate
+                  investment.
                 </p>
                 <button
                   class="text-neutral-900 font-extrabold flex justify-center items-center"
@@ -570,13 +688,13 @@
             </div>
             <!-- Article 3 -->
             <div
-              class="bg-white p-5 lg:p-6 rounded-2xl flex flex-col md:flex-row lg:flex-col"
+              class="bg-white p-5 lg:p-6 rounded-2xl flex flex-col md:flex-row lg:flex-col lg:w-1/3"
             >
               <div
                 class="bg-cover bg-center h-48 md:w-64 lg:h-52 lg:w-auto rounded-2xl mb-4 md:mb-0 lg:mb-4 md:mr-6 lg:mr-0"
-                style="background-image: url(./assets/article3.png)"
+                style="background-image: url(./assets/article3.webp)"
               ></div>
-              <div>
+              <div class="md:w-2/3 lg:w-full">
                 <div class="flex gap-2 mb-2">
                   <span class="flex items-center gap-2 text-sm text-neutral-500"
                     ><img src="./assets/calendar.svg" alt="" class="" />July 14,
@@ -587,11 +705,11 @@
                   >
                 </div>
                 <h4 class="text-xl font-bold text-neutral-600 mb-2">
-                  How to choose the furniture right of your home.
+                  Navigating the Real Estate Market: Trends and Tips for 2024
                 </h4>
                 <p class="text-neutral-500 mb-3">
-                  The barn house captivates with its blend of rustic charm and
-                  modern.
+                  Get expert tips to navigate and capitalize on 2024 real estate
+                  trends.
                 </p>
                 <button
                   class="text-neutral-900 font-extrabold flex justify-center items-center"
@@ -612,7 +730,7 @@
       <!-- Lets discuss next project -->
       <section
         class="bg-cover bg-center border-8 border-white py-8 md:py-16 lg:py-24 px-4 lg:px-0"
-        style="background-image: url(./assets/bg.jpg)"
+        style="background-image: url(./assets/bg.webp)"
       >
         <div class="container w-full md:w-2/3 mx-auto">
           <!-- discuss content -->
@@ -630,9 +748,8 @@
               Let’s Discuss Next Project
             </h2>
             <p class="text-neutral-600 font-medium">
-              The barn house captivates with its blend of rustic charm and
-              modern sophistication, featuring weathered wood, sleek metal
-              accents.
+              Ready to start your next project? Let’s discuss your vision and
+              make it a reality.
             </p>
           </div>
           <form
@@ -684,8 +801,8 @@
       <div class="container text-center mx-auto">
         <img src="./assets/Logo-white.svg" alt="" class="mx-auto mb-4" />
         <p class="text-neutral-500 mb-8 md:w-2/3 mx-auto lg:w-1/2">
-          The barn house captivates with its blend of rustic charm and modern
-          sophistication, featuring weathered wood, sleek metal accents.
+          Your trusted partner in finding the perfect property, whether you're
+          buying, selling, or renting.
         </p>
         <ul
           class="text-neutral-200 flex flex-col gap-8 mb-8 md:flex-row md:gap-20 justify-center"
